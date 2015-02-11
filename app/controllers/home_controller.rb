@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @gif = GiphySticker.cat_gif
+    @gif = GiphySticker.rand_cat_gif
   end
 end
