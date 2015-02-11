@@ -1,6 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Inconsolata', "Comic Sans MS", sans-serif;
+  font-size: 16px;
+  outline: none;
 }
 html, body {
   width: 100%;
@@ -17,20 +22,37 @@ form {
   width: 100%;
   display: block;
   position: fixed;
-  bottom: 20px;
+  bottom: 38px;
   left: 0;
   text-align: center;
 }
 input {
-  width: 80%;
+  width: 50%;
+  min-width: 320px;
   border: none;
-  border-bottom: 5px solid rgba(#feaaac,0.5);
-  background: rgba(#9dedff,0.35);
-  font-size: 40px;
+  border-bottom: 5px solid rgba(#feaaac, 0.5);
+  background: rgba(#ffffff, 0.9);
+  padding: 3px 0;
   text-align: center;
   color: #fec3c4;
-  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 button {
   display: none;
+}
+#share {
+  background: rgba(#ffffff, 0.9);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 26px;
+}
+.fb-share-button {
+  float: left;
+  margin: 3px 0 0 10px;
+}
+.btc {
+  float: right;
+  margin: 3px 10px 0 0;
+  color: #8d8d8d;
 }
