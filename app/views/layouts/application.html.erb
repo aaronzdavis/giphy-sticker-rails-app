@@ -5,7 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= favicon_link_tag @gif %>
-  <meta property="og:image" content="http://media4.giphy.com/media/xEhlZbxF3uQSY/giphy.gif" />
+  <meta property="og:image" content="<%= @gif %>" />
   <%= csrf_meta_tags %>
 </head>
 <body>
