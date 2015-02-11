@@ -48,21 +48,22 @@ button {
   bottom: 0;
   left: 0;
   height: 31px;
-  text-align: center;
-  a {
-    position: absolute;
-    color: #8d8d8d;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  color: #8d8d8d;
 }
 .fb-share-button {
   float: left;
   margin: 6px 0 0 7px;
 }
+.links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a {
+  color: #8d8d8d;
+}
 .btc {
   float: right;
   margin: 8px 10px 0 0;
-  color: #8d8d8d;
 }

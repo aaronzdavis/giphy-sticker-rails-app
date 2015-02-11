@@ -1,9 +1,12 @@
-#home style="background-image: url(#{@gif})"
+a#home style="background-image: url(#{@gif})" href=(params[:q].present? ? "/?q=#{params[:q]}" : "/")
 form action="/"
   input type="text" name="q" value=params[:q]
   button go
 
 #share
   .fb-share-button data-href=ENV['share_url'] data-layout="button_count"
-  a href=@gif = @gif
+  .links
+    a href=@gif GIF URL
+    = " / "
+    a href="/?g=#{@gif}" PERMALINK
   .btc 1HEKg7VhQ3DaGEJmYYePjRA1CYPYpQ6qYi
