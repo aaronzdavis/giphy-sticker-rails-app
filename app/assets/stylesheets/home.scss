@@ -1,10 +1,36 @@
 * {
   padding: 0;
   margin: 0;
+}
+html, body {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 #home {
+  width: 100%;
+  height: 100%;
   display: block;
   background-position: center center;
+}
+form {
+  width: 100%;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  text-align: center;
+}
+input {
+  width: 80%;
+  border: none;
+  border-bottom: 5px solid rgba(#feaaac,0.5);
+  background: rgba(#9dedff,0.35);
+  font-size: 40px;
+  text-align: center;
+  color: #fec3c4;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+button {
+  display: none;
 }

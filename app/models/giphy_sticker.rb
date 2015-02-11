@@ -27,8 +27,8 @@ class GiphySticker
     end
   end
 
-  def self.rand_cat_gif
-    self.search("cats").data.sample.images.original.url
+  def self.rand_gif(search)
+    self.search(search).data.sample.images.original.url
   end
 
 end
