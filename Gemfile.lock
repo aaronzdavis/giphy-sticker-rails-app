@@ -57,6 +57,9 @@ GEM
     debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.3.0)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     globalid (0.3.2)
       activesupport (>= 4.1.0)
     hashie (3.3.2)
@@ -162,6 +165,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
   coffee-rails (~> 4.1.0)
+  figaro
   hashie
   httparty
   jbuilder (~> 2.0)
