@@ -28,7 +28,7 @@ class GiphySticker
   end
 
   def self.rand_gif(search)
-    self.search(search).data.sample.images.original.url
+    self.search(search).data.sample.images.original.url rescue "http://media1.giphy.com/media/14sl8560pYiHWU/giphy.gif"
   end
 
 end
