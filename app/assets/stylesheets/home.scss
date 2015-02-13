@@ -67,3 +67,15 @@ a {
   float: right;
   margin: 8px 10px 0 0;
 }
+
+@media (max-width: 600px) {
+  .links {
+    position: static;
+    float: right;
+    margin: 8px 10px;
+    transform: none;
+  }
+  .btc {
+    display: none;
+  }
+}
