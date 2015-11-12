@@ -13,6 +13,12 @@
 </head>
 <body>
 
+<% if current_user %>
+  <%= link_to current_user.email, "/dashboard" %> | <%= link_to "Logout", '/logout' %>
+<% else %>
+  <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+<% end %>
+
 <%= yield %>
 
 <div id="fb-root"></div>
